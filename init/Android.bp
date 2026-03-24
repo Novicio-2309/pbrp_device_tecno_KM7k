@@ -1,0 +1,14 @@
+cc_library_static {
+    name: "libinit_TECNO-KM7k",
+    header_libs: [
+        "libbase_headers",
+    ],
+    cflags: [
+        "-Wall",
+    ],
+    static_libs: [
+        "libbase",
+    ],
+    srcs: ["init_TECNO-KM7k.cpp"],
+    recovery_available: true,
+}
