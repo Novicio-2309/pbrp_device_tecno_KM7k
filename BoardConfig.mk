@@ -128,6 +128,15 @@ TW_INCLUDE_CRYPTO_FBE := true
 TW_USE_FSCRYPT_POLICY := 2
 TW_FORCE_KEYMASTER_VERSION := true
 
+# Storage
+TW_INTERNAL_STORAGE_PATH := "/data/media/0"
+TW_INTERNAL_STORAGE_MOUNT_POINT := "data"
+TW_EXTERNAL_STORAGE_PATH := "/external_sd"
+TW_EXTERNAL_STORAGE_MOUNT_POINT := "external_sd"
+TW_HAS_MTP := true
+TW_MTP_DEVICE := /dev/mtp_usb
+TARGET_USE_CUSTOM_LUN_FILE_PATH := /config/usb_gadget/g1/functions/mass_storage.usb0/lun.%d/file
+
 # Hack
 PLATFORM_SECURITY_PATCH := 2099-12-31
 PLATFORM_VERSION := 99.87.36
