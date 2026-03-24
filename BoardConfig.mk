@@ -101,7 +101,6 @@ TARGET_COPY_OUT_VENDOR_DLKM := vendor_dlkm
 
 # PBRP FLAGS
 PB_DISABLE_DEFAULT_DM_VERITY := true
-PB_TORCH_PATH := /sys/class/leds/flashlight
 
 # Platform (chipset)
 TARGET_BOARD_PLATFORM := mt6789
