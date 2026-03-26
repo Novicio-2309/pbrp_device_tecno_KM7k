@@ -6,6 +6,8 @@
 
 DEVICE_PATH := device/tecno/KM7k
 
+TW_FORCE_SELINUX_PERMISSIVE := true
+
 # Architecture
 TARGET_ARCH := arm64
 TARGET_ARCH_VARIANT := armv8-a
